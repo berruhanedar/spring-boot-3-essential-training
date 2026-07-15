@@ -1,6 +1,5 @@
 package com.berru.room_web_app.web.api;
 
-import com.berru.room_web_app.data.entity.RoomEntity;
 import com.berru.room_web_app.service.RoomService;
 import com.berru.room_web_app.web.model.Room;
 import org.springframework.web.bind.annotation.*;
