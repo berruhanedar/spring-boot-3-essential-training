@@ -1,8 +1,7 @@
 package com.berru.room_web_app;
 
-import com.berru.room_web_app.repository.RoomRepository;
-import com.berru.room_web_app.repository.StaffRepository;
-import org.springframework.beans.factory.BeanRegistrarDslMarker;
+import com.berru.room_web_app.data.repository.RoomRepository;
+import com.berru.room_web_app.data.repository.StaffRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

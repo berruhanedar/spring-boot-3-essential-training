@@ -1,6 +1,6 @@
-package com.berru.room_web_app.repository;
+package com.berru.room_web_app.data.repository;
 
-import com.berru.room_web_app.entity.RoomEntity;
+import com.berru.room_web_app.data.entity.RoomEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.UUID;

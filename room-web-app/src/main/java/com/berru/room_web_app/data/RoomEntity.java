@@ -1,4 +1,4 @@
-package com.berru.room_web_app.entity;
+package com.berru.room_web_app.data.entity;
 
 import jakarta.persistence.*;
 

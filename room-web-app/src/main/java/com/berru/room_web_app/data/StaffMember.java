@@ -1,4 +1,4 @@
-package com.berru.room_web_app.entity;
+package com.berru.room_web_app.data.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -25,7 +25,7 @@ public class StaffMember {
 
     @Column(name = "POSITION")
     @Enumerated(EnumType.STRING)
-    private Position position;
+    private com.berru.room_web_app.data.entity.Position position;
 
     @Override
     public String toString() {
