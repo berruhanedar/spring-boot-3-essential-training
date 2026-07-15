@@ -1,6 +1,7 @@
 package com.berru.room_web_app;
 
 import com.berru.room_web_app.repository.RoomRepository;
+import com.berru.room_web_app.repository.StaffRepository;
 import org.springframework.beans.factory.BeanRegistrarDslMarker;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -15,9 +16,12 @@ public class RoomWebAppApplication {
     }
 
     @Bean
-    public CommandLineRunner run(RoomRepository roomRepository) {
+    public CommandLineRunner run(RoomRepository roomRepository, StaffRepository staffRepository) {
         return args -> {
+            System.out.println("**** ROOMS ****");
             roomRepository.findAll().forEach(System.out::println);
+            System.out.println("\n\n**** STAFFS ****");
+            staffRepository.findAll().forEach(System.out::println);
         };
     }
 
