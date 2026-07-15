@@ -1,26 +1,22 @@
-INSERT INTO ROOM (ROOM_NUMBER, NAME, BED_INFO)
-VALUES ('P1', 'Piccadilly', '1 Queen Bed');
-
-INSERT INTO ROOM (ROOM_NUMBER, NAME, BED_INFO)
-VALUES ('P2', 'Piccadilly', '2 Double Beds');
-
-INSERT INTO ROOM (ROOM_NUMBER, NAME, BED_INFO)
-VALUES ('A1', 'Atlantic', '1 King Bed');
-
-INSERT INTO ROOM (ROOM_NUMBER, NAME, BED_INFO)
-VALUES ('B1', 'Blue Lagoon', '1 Single Bed');
-
-INSERT INTO RESERVATION
-(ROOM_ID, GUEST_FIRST_NAME, GUEST_LAST_NAME, DATE)
+INSERT INTO ROOMS (ROOM_ID, NAME, NUMBER, BED_INFO)
 VALUES
-(1, 'Berru', 'Hanedar', '2026-07-20');
-
-INSERT INTO RESERVATION
-(ROOM_ID, GUEST_FIRST_NAME, GUEST_LAST_NAME, DATE)
-VALUES
-(2, 'Ahmet', 'Yılmaz', '2026-07-22');
-
-INSERT INTO RESERVATION
-(ROOM_ID, GUEST_FIRST_NAME, GUEST_LAST_NAME, DATE)
-VALUES
-(3, 'Ayşe', 'Demir', '2026-07-25');
+('550e8400-e29b-41d4-a716-446655440001', 'Deluxe Room', '101', '1 King Bed'),
+('550e8400-e29b-41d4-a716-446655440002', 'Standard Room', '102', '1 Queen Bed'),
+('550e8400-e29b-41d4-a716-446655440003', 'Family Suite', '103', '2 Double Beds'),
+('550e8400-e29b-41d4-a716-446655440004', 'Executive Suite', '104', '1 King Bed'),
+('550e8400-e29b-41d4-a716-446655440005', 'Single Room', '105', '1 Single Bed'),
+('550e8400-e29b-41d4-a716-446655440006', 'Twin Room', '106', '2 Single Beds'),
+('550e8400-e29b-41d4-a716-446655440007', 'Junior Suite', '107', '1 Queen Bed'),
+('550e8400-e29b-41d4-a716-446655440008', 'Presidential Suite', '108', '2 King Beds'),
+('550e8400-e29b-41d4-a716-446655440009', 'Economy Room', '109', '1 Double Bed'),
+('550e8400-e29b-41d4-a716-446655440010', 'Business Room', '110', '1 Queen Bed'),
+('550e8400-e29b-41d4-a716-446655440011', 'Superior Room', '111', '1 King Bed'),
+('550e8400-e29b-41d4-a716-446655440012', 'Garden View Room', '112', '1 Double Bed'),
+('550e8400-e29b-41d4-a716-446655440013', 'Sea View Room', '113', '1 King Bed'),
+('550e8400-e29b-41d4-a716-446655440014', 'Studio Room', '114', '1 Queen Bed'),
+('550e8400-e29b-41d4-a716-446655440015', 'Luxury Suite', '115', '2 Queen Beds'),
+('550e8400-e29b-41d4-a716-446655440016', 'Corner Room', '116', '1 Double Bed'),
+('550e8400-e29b-41d4-a716-446655440017', 'Penthouse Suite', '117', '2 King Beds'),
+('550e8400-e29b-41d4-a716-446655440018', 'Accessible Room', '118', '1 Queen Bed'),
+('550e8400-e29b-41d4-a716-446655440019', 'Classic Room', '119', '1 Double Bed'),
+('550e8400-e29b-41d4-a716-446655440020', 'Premium Suite', '120', '1 King Bed');
