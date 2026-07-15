@@ -8,17 +8,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="fizzbuzz" />
-        <module name="room-clr" />
         <module name="booting" />
       </profile>
-      <profile name="Annotation profile for room-web-app" enabled="true">
+      <profile name="Annotation profile for room-clr" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
         </processorPath>
         <module name="room-web-app" />
+        <module name="room-clr" />
       </profile>
     </annotationProcessing>
   </component>
